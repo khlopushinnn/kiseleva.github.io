@@ -1,1 +1,322 @@
-# kiseleva.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Psychology of Color in Digital Marketing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .article-image {
+            transition: transform 0.3s ease;
+        }
+        .article-image:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold gradient-text">ColorTheory</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition">Articles</a>
+                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition">Research</a>
+                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition">About</a>
+                </div>
+                <div class="flex items-center md:hidden">
+                    <i data-feather="menu"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-gradient-to-r from-blue-50 to-purple-50 py-20 overflow-hidden">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6" data-aos="fade-up">
+                    The <span class="gradient-text">Psychology</span> of Color
+                </h1>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="100">
+                    How color choices influence consumer behavior and brand perception in digital marketing
+                </p>
+                <div class="flex justify-center space-x-4" data-aos="fade-up" data-aos-delay="200">
+                    <button class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition">
+                        Read Study
+                    </button>
+                    <button class="border border-gray-300 hover:border-indigo-600 text-gray-700 px-6 py-3 rounded-lg font-medium transition">
+                        View Infographic
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="absolute top-0 left-0 w-full h-full opacity-10">
+            <div class="absolute top-1/4 left-1/4 w-64 h-64 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+            <div class="absolute top-1/3 right-1/4 w-64 h-64 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+            <div class="absolute bottom-1/4 left-1/2 w-64 h-64 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+        </div>
+    </header>
+
+    <!-- Article Content -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <article class="prose prose-lg max-w-none">
+            <div class="flex items-center mb-8">
+                <div class="flex-shrink-0">
+                    <img class="h-10 w-10 rounded-full" src="http://static.photos/people/200x200/42" alt="Author">
+                </div>
+                <div class="ml-3">
+                    <p class="text-sm font-medium text-gray-900">Dr. Sarah Chen</p>
+                    <div class="flex space-x-1 text-sm text-gray-500">
+                        <time datetime="2023-05-15">May 15, 2023</time>
+                        <span aria-hidden="true">&middot;</span>
+                        <span>12 min read</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-gray-600 mb-6" data-aos="fade-up">
+                In the digital landscape where attention spans are shorter than ever, color has emerged as one of the most powerful tools in a marketer's arsenal. Research shows that color influences up to <span class="font-semibold text-indigo-600">90% of snap judgments</span> about products, and proper color selection can improve brand recognition by 80%.
+            </p>
+
+            <div class="my-12 rounded-xl overflow-hidden shadow-lg" data-aos="fade-up">
+                <img src="http://static.photos/technology/1200x630/5" alt="Color Psychology" class="w-full h-auto article-image">
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6" data-aos="fade-up">The Science Behind Color Perception</h2>
+            
+            <p class="text-gray-600 mb-6" data-aos="fade-up">
+                Color psychology examines how different hues affect human behavior and decision-making. When light enters our eyes, it's converted into electrical impulses that travel to the brain's hypothalamus, which governs our endocrine system and hormones. This biological response explains why:
+            </p>
+
+            <ul class="space-y-4 mb-8" data-aos="fade-up">
+                <li class="flex items-start">
+                    <div class="flex-shrink-0 h-5 w-5 text-indigo-500 mt-1">
+                        <i data-feather="check-circle"></i>
+                    </div>
+                    <p class="ml-3 text-gray-600"><span class="font-semibold">Red</span> increases heart rate and creates urgency (used in 45% of clearance sales)</p>
+                </li>
+                <li class="flex items-start">
+                    <div class="flex-shrink-0 h-5 w-5 text-indigo-500 mt-1">
+                        <i data-feather="check-circle"></i>
+                    </div>
+                    <p class="ml-3 text-gray-600"><span class="font-semibold">Blue</span> promotes trust and security (favored by 57% of financial institutions)</p>
+                </li>
+                <li class="flex items-start">
+                    <div class="flex-shrink-0 h-5 w-5 text-indigo-500 mt-1">
+                        <i data-feather="check-circle"></i>
+                    </div>
+                    <p class="ml-3 text-gray-600"><span class="font-semibold">Green</span> is associated with health and tranquility (used in 78% of organic brands)</p>
+                </li>
+            </ul>
+
+            <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6" data-aos="fade-up">Cultural Context Matters</h2>
+
+            <p class="text-gray-600 mb-6" data-aos="fade-up">
+                While some color associations are universal (red for danger), many are culturally specific. For example:
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-6 my-8" data-aos="fade-up">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="h-3 w-full bg-red-500 rounded-t-lg mb-4"></div>
+                    <h3 class="font-bold text-lg mb-2">Western Cultures</h3>
+                    <p class="text-gray-600">White represents purity (weddings), while in Eastern cultures it symbolizes mourning.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="h-3 w-full bg-yellow-500 rounded-t-lg mb-4"></div>
+                    <h3 class="font-bold text-lg mb-2">Middle East</h3>
+                    <p class="text-gray-600">Yellow signifies happiness and prosperity, but in Latin America it's associated with death.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="h-3 w-full bg-green-500 rounded-t-lg mb-4"></div>
+                    <h3 class="font-bold text-lg mb-2">Global Brands</h3>
+                    <p class="text-gray-600">McDonald's uses red and yellow globally—red for excitement, yellow for happiness.</p>
+                </div>
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6" data-aos="fade-up">Case Study: Color A/B Testing</h2>
+
+            <p class="text-gray-600 mb-6" data-aos="fade-up">
+                In a landmark 2022 study by the Digital Marketing Institute, changing a single call-to-action button color resulted in:
+            </p>
+
+            <div class="bg-indigo-50 rounded-xl p-8 my-8" data-aos="fade-up">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="font-bold text-xl mb-4 text-indigo-800">Original (Blue)</h3>
+                        <div class="bg-white p-6 rounded-lg shadow-inner">
+                            <div class="h-12 w-full bg-blue-600 rounded-lg mb-4"></div>
+                            <p class="text-gray-700">Conversion Rate: <span class="font-bold">2.3%</span></p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-4 text-indigo-800">Variant (Orange)</h3>
+                        <div class="bg-white p-6 rounded-lg shadow-inner">
+                            <div class="h-12 w-full bg-orange-500 rounded-lg mb-4"></div>
+                            <p class="text-gray-700">Conversion Rate: <span class="font-bold">4.1%</span> (+78%)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-3xl font-bold text-gray-900 mt-12 mb-6" data-aos="fade-up">Practical Applications</h2>
+
+            <p class="text-gray-600 mb-6" data-aos="fade-up">
+                When designing your digital marketing assets, consider these evidence-based recommendations:
+            </p>
+
+            <div class="relative my-12" data-aos="fade-up">
+                <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                    <div class="w-full border-t border-gray-300"></div>
+                </div>
+                <div class="relative flex justify-center">
+                    <span class="px-4 bg-gray-50 text-lg font-medium text-gray-500">Color Strategy Checklist</span>
+                </div>
+            </div>
+
+            <div class="grid gap-6 mb-12" data-aos="fade-up">
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-indigo-100 p-2 rounded-lg">
+                        <i data-feather="target" class="h-5 w-5 text-indigo-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="font-semibold text-gray-900">Align with Brand Personality</h3>
+                        <p class="text-gray-600 mt-1">Luxury brands use black/gold (84% adoption), while eco-brands prefer green (76%).</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-indigo-100 p-2 rounded-lg">
+                        <i data-feather="eye" class="h-5 w-5 text-indigo-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="font-semibold text-gray-900">Consider Color Blindness</h3>
+                        <p class="text-gray-600 mt-1">8% of men have color vision deficiency—avoid red/green combinations.</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 bg-indigo-100 p-2 rounded-lg">
+                        <i data-feather="bar-chart-2" class="h-5 w-5 text-indigo-600"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="font-semibold text-gray-900">Test Different Schemes</h3>
+                        <p class="text-gray-600 mt-1">Multivariate testing shows optimal color combinations vary by industry.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-8 text-white my-12" data-aos="fade-up">
+                <h3 class="text-2xl font-bold mb-4">Key Takeaway</h3>
+                <p class="mb-4">Color is not just decoration—it's a psychological trigger that can increase conversions by up to 24% when used strategically.</p>
+                <button class="bg-white text-indigo-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium transition">
+                    Download Full Research Paper
+                </button>
+            </div>
+
+            <div class="border-t border-gray-200 pt-8 mt-12">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <img class="h-12 w-12 rounded-full" src="http://static.photos/people/200x200/42" alt="Author">
+                    </div>
+                    <div class="ml-4">
+                        <p class="text-sm font-medium text-gray-900">Dr. Sarah Chen</p>
+                        <p class="text-sm text-gray-500">Cognitive Psychologist & UX Researcher</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Join Our Research Community</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">Get monthly insights on psychology-driven design delivered to your inbox.</p>
+                <form class="mt-6 flex max-w-md mx-auto">
+                    <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-l-lg border border-r-0 border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-r-lg font-medium transition">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider">Research</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Case Studies</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">White Papers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Methodology</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider">Resources</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Color Tools</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Templates</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Glossary</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider">Company</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Team</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Careers</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold uppercase tracking-wider">Connect</h3>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Twitter</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">LinkedIn</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2023 ColorTheory Research. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i data-feather="twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i data-feather="linkedin"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i data-feather="github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+        feather.replace();
+    </script>
+</body>
+</html>
